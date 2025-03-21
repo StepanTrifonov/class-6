@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* this is CSS reset to clear of defaut browser styles */
+
+
+
+
+
+/* styles for our for our website starts here */
+
+#page_wrapper {
+    border: 1px solid red;
+    padding: 40px;
+}
+
+body {
+    background-color: #8EB9D4;
+    font-family: Plus Jakarta Sans;
+}
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 745px) {
+    nav {display: none;}
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: default;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+nav button {
+    background-color: #8EB9D4;
+    color: black;
+    border: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button {
+    background-color: #8EB9D4;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #7AAAC4;
+}
+#about_me {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+#about_me img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 1040px;
+    max-height: 770px;
+}
+.about_me_text {
+    text-align: center;
+}
+.custom-button {
+    margin: 0 auto;
+    color: black;
+    border: 2px solid black; 
+    padding: 20px 10px;
+    border-radius: 20px;
+    font-size: 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    text-align: center;
+}
+
+.custom-button:hover {
+    background-color: #7AAAC4;
+}
+h1 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 20px; 
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 20px; 
+}
+#my_works {
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project {
+    background-color:#8EB9D4;
+    border-radius: 10px;
+    box-shadow: 1px 4px 8px black;
+    text-align: center;
+}
+.project img {
+    width: 325px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px; 
+}
+
+
+#work_process {
+    background-color: #B3D9E9;
+}
+
+.step {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 50px 10px 10px 10px;
+    text-align: left;
+}
+
+
+
+.step p {
+    text-align: left;
+    margin: 10px;
+    border-top: 2px solid black;
+    padding: 5px;
+}
