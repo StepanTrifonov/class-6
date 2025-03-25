@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>This my first Website!</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -132,6 +135,51 @@
                     </div>    
                 </div>
             </div>
+
+            <div id="get_in_touch">
+                <h5> 
+                    Get in touch! 
+                </h5>
+
+                <p>
+                     Please fill out the form below and send me message 
+                </p>
+                    
+                <form action="submit_form.php" method="post">
+                    
+                    <input type="text" id="name" name="name" placeholder="your name" required>
+                    
+                
+                    <input type="email" id="email" name="email" placeholder="your email" required>
+                    
+                    
+                    <textarea id="message" name="message" rows="4" placeholder="message" required></textarea>
+                    
+                    <button class="custom-button">
+                        Let's get in touch!
+                    </button>
+                </form>
+
+            </div>
+
+            <footer>
+
+                <div class="logo">
+                    Stepan
+
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><button>Facebook</button></li>
+                        <li><button>Telegram</button></li>
+                        <li><button>Instagram</button></li>                
+                    </ul>
+
+                </nav>
+
+            </footer>
+            
     </div>
     
     </body>
